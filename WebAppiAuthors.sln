@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppiAuthors", "WebAppiAuthors\WebAppiAuthors.csproj", "{CE53BCF4-2CCD-4A59-B11A-DC00452DE739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject", "NUnitTestProject\NUnitTestProject.csproj", "{FEDABA67-99BC-4FEA-83A8-2DEC9C64FE22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE53BCF4-2CCD-4A59-B11A-DC00452DE739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE53BCF4-2CCD-4A59-B11A-DC00452DE739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE53BCF4-2CCD-4A59-B11A-DC00452DE739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE53BCF4-2CCD-4A59-B11A-DC00452DE739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDABA67-99BC-4FEA-83A8-2DEC9C64FE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDABA67-99BC-4FEA-83A8-2DEC9C64FE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDABA67-99BC-4FEA-83A8-2DEC9C64FE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDABA67-99BC-4FEA-83A8-2DEC9C64FE22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74449F60-0A96-4533-BA34-DC30BA598922}
+	EndGlobalSection
+EndGlobal
