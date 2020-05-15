@@ -46,7 +46,7 @@ namespace WebAppiAuthors.Controllers.v1
             _logger.LogInformation("Obteniendo los autores");
             var captura = _configuration["UserAdmin"];
             var connectionString = _configuration["connectionStrings:DefaultConnection"];
-
+            var hola = 1;
             var authors = await query
                                 .Skip(numberRegister * (numberPage -1))
                                 .Take(numberRegister)
