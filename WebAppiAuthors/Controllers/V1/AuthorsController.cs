@@ -37,7 +37,7 @@ namespace WebAppiAuthors.Controllers.v1
 
 
         [HttpGet(Name = "GetAuthors")]
-        public async Task<IActionResult> Get(bool includeLinksHateos = false,int numberPage = 1, int numberRegister = 5 )
+        public async Task<IActionResult> Get(bool includeLinksHateos = false,int numberPage = 1, int numberRegister = 6 )
         {
             //Variables para el manejo de la paginacion
             var query = _context.Authors.AsQueryable();
@@ -46,7 +46,7 @@ namespace WebAppiAuthors.Controllers.v1
             _logger.LogInformation("Obteniendo los autores");
             var captura = _configuration["UserAdmin"];
             var connectionString = _configuration["connectionStrings:DefaultConnection"];
-            var hola = 1;
+
             var authors = await query
                                 .Skip(numberRegister * (numberPage -1))
                                 .Take(numberRegister)
