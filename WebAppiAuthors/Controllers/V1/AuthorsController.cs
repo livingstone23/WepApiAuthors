@@ -37,7 +37,7 @@ namespace WebAppiAuthors.Controllers.v1
 
 
         [HttpGet(Name = "GetAuthors")]
-        public async Task<IActionResult> Get(bool includeLinksHateos = false,int numberPage = 1, int numberRegister = 6 )
+        public async Task<IActionResult> Get(bool includeLinksHateos = false,int numberPage = 1, int numberRegister = 4 )
         {
             //Variables para el manejo de la paginacion
             var query = _context.Authors.AsQueryable();
